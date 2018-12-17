@@ -1,0 +1,9 @@
+int myNumber = 15;
+//myNumber is the original number
+int stepone = myNumber*myNumber;
+int steptwo = stepone+myNumber;
+int stepthree = steptwo/myNumber;
+int stepfour = stepthree+17;
+int stepfive = stepfour-myNumber;
+int stepsix = stepfive/6;
+System.out.println(stepsix);

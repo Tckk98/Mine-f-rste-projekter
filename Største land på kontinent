@@ -14,5 +14,5 @@ switch (continent)	{
      break;
   default: System.out.println("Undefined continent!");
 }	
-/* Dette program fortæller hvilken by der er den største på et continent ved at give et continent et nummer f.eks. 
-Har nord Amerika nummeret "1" så hvis dette indsættes vil der printes "North America: Mexico city, Mexico" */
+/* Dette program fortæller hvilken by der er den største på et continent ved at give et kontinent et nummer f.eks. 
+Har Nord-Amerika nummeret "1" så hvis dette indsættes vil der printes "North America: Mexico city, Mexico" */

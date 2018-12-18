@@ -95,3 +95,5 @@ switch (country)	{
     break;
   case "Czech Republic": System.out.println("Prague");
   default: System.out.println("Undefined country!");
+  }
+  }

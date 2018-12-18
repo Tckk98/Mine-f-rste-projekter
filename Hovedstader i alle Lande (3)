@@ -1,6 +1,8 @@
+public class Country-capital {
+	public static void main(String[] args) {
 //Skriv et land ind og få svaret på hvad hovedstaden er i landet
-int country = "Denmark";
-switch (continent)	{
+(find ud af hvordan man får det til at virke med ord "int" "char") country = "Denmark";
+switch (country)	{
   case "Denmark": System.out.println("Copenhagen");
     break;
   case "Afghanistan": System.out.println("Kabul");
@@ -11,7 +13,7 @@ switch (continent)	{
      break;
   case "Andorra": System.out.println("Andorra la Vella");
      break;
-  case 'Angola': System.out.println("Luanda");
+  case "Angola": System.out.println("Luanda");
      break;
   case "Antigua and Barbuda": System.out.println("Saint John's");
      break;

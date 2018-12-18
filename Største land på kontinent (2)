@@ -1,3 +1,5 @@
+public class continents  {
+	public static void main(String[] args) {
 int continent = '4';
 switch (continent)	{
   case '1': System.out.println("North America: Mexico city, Mexico");
@@ -13,6 +15,8 @@ switch (continent)	{
   case '6': System.out.println("Antarctica: McMurdo Station, US");
      break;
   default: System.out.println("Undefined continent!");
-}	
+}
+}
+}
 /* Dette program fortæller hvilken by der er den største på et continent ved at give et kontinent et nummer f.eks. 
 Har Nord-Amerika nummeret "1" så hvis dette indsættes vil der printes "North America: Mexico city, Mexico" */

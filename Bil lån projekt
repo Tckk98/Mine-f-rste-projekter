@@ -1,0 +1,19 @@
+public class CarLoan {
+	public static void main(String[] args) {
+/* Dette projekt beregner ens månedlige udbetaling hvis man har de nedenstående oplysninger, derudover kan projektet også fortælle hvis man har råd til at købe bilen med det samme samt tjekke om lånet er et "lån" */
+int carLoan = 10000;
+int loanLength = 3; //År
+int interestRate = 5; //%
+int downPayment = 2000;
+if (loanLength<= 0 || interestRate <= 0) 
+{System.out.println("Error! This loan is invalid");}
+else if (downPayment>=carLoan)
+{System.out.println("you can pay without a loan");}
+else {
+     int remainingBalance = carLoan-downPayment;
+     int months=loanLength*12;
+     int monthlyBalance=remainingBalance/months;
+     int interest=monthlyBalance*interestRate/100;
+     int monthlyPayment=monthlyBalance+interest;   System.out.println(monthlyPayment);}
+	}
+}

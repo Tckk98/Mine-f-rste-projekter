@@ -1,0 +1,37 @@
+/*I dette projekt er der programmeret en "robot" som kan svæve miste strøm og blive opladet igen*/
+public class Droid {
+  int batteryLevel;
+    
+    Droid(){
+      batteryLevel=100;
+    }
+  public void activate() {
+    System.out.println("Activated. how may i help you?");
+    batteryLevel=batteryLevel-5;
+    System.out.println("battery level is at: "+batteryLevel+"%");
+    }
+  public void chargeBattery(int hours) {
+    System.out.println("droid is charging...");
+    batteryLevel=batteryLevel+hours;
+    if (batteryLevel>=100){
+    batteryLevel=100;
+    System.out.println("battery level is at: "+ batteryLevel +"%, please  disconnect charger");} 
+    else{System.out.println("battery level is at: "+ batteryLevel +"%");}
+  }
+  public int checkBatteryLevel() {
+    System.out.println("battery level is at: "+batteryLevel+"%");
+    return batteryLevel;}
+  
+  public void hover (int feet) {
+    if (feet>2) { System.out.println("Error! I cannot hover above 2 feet.");}
+    else {System.out.println("Hovering"+ feet +"feet of the ground");}
+    batteryLevel=batteryLevel-20;
+    System.out.println("battery level is at: "+batteryLevel+"%");} 
+  
+  public static void main(String[] args) {
+      Droid myDroid=new Droid();
+      myDroid.activate();
+      myDroid.chargeBattery(5);
+      myDroid.hover(1);
+    }
+}

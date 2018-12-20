@@ -21,7 +21,7 @@ CONDITIONALS AND CONTROL FLOW
 
 OBJECT ORIENTED JAVA
 - Classes: Syntax,Constructors,Instance variables and Constructor parameters
-- The main method ( public static void main(String[] args) {})
+- The main method: ( public static void main(String[] args) {})
 - Objects
 - Methods and using Methods
 - Inheritence

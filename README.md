@@ -1,6 +1,6 @@
 Mine-foorste-projekter i Java
 Dette er en samling af mine projekter jeg har lavet i forbindelse med at laere at kode i Java.
-Jeg har nummereret mine projekterne efter hvornår jeg har lavet dem så nummer "1" er det foorste 
+Jeg har nummereret mine projekter efter hvornår jeg har lavet dem så nummer "1" er det foorste 
 
 Jeg har ved hjælp af et online kursus på Codeacademy.com lært følgende om java 
 
